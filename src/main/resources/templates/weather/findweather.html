@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<title>Weather App</title>
+</head>
+<body>
+
+<div class="container">
+	<br>
+	<h3>Find Weather</h3>
+	<hr>
+	
+	<p class="h4 mb-4">Search weather of your location </p>
+	
+	<form action="#" th:action="@{/app/getweather}" >
+		
+		<input type="text" name="city" class="form-control mb-4 w-25" placeholder="Location Name"/>
+		
+		
+		<button type="submit" class="btn btn-info col-2">Search</button>
+		
+		
+	</form>
+
+
+</div>
+
+
+</body>
+</html>
