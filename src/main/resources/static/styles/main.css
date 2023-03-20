@@ -1,0 +1,12 @@
+body{
+	background-color:#4682B4
+;
+}
+.myCard{
+	width: 18rem;
+	position:relative;
+	margin:150px auto 0 auto;
+}
+.myCardChild{
+	padding:110px 40px;
+}

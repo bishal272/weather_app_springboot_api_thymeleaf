@@ -1,0 +1,12 @@
+body{
+	background-color:#87CEEB;
+}
+.myCard{
+	width:25rem;
+	position:relative;
+	margin:150px auto 0 auto;
+}
+.myCardChild{
+	width:25rem;
+	
+}
